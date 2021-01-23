@@ -1,0 +1,41 @@
+.AboutOwner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.NavAboutItem {
+  align-items: center;
+  font-family: Audiowide;
+    font-size: 2rem;
+    color: #007bff;
+  border-radius: .25rem;
+  border: 1px solid white;
+  background: #000000d6;
+  box-shadow: 1px 1px 3px #000c;
+  white-space: nowrap;
+  margin: 0 0 1rem 1rem;
+  padding-right: 1em;
+}
+
+.NavAboutItem a {
+  display: block;
+  height: 100%;
+  border-radius: .25rem;
+  padding: .4rem .4rem .4rem 1rem;
+}
+
+.NavAboutItem a:hover {
+  color: #fffc;
+  text-decoration: none;
+}
+
+.NavAboutItemActive  {
+  color: white;
+  background-color: #007bff;
+  object-fit: cover;
+  background-size: cover;
+  display:block;
+  width: 100%;
+}

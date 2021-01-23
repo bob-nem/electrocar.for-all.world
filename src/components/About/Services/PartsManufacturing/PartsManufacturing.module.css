@@ -1,0 +1,13 @@
+.ManufacturingOwner {
+  margin-top: 1rem;
+}
+
+.ManufacturingCard {
+  background: #000000d6;
+  border: 1px solid white;
+
+}
+
+.ManufacturingCardHeader {
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,40 @@
+.FooterOverall {
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: white;
+  padding: .4rem .5rem;
+  width: 100%;
+}
+
+.FooterOverall a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.FooterOverall a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.FooterCopyright {
+  margin-right: 1rem;
+}
+
+.FooterCopyright p {
+  margin-bottom: 0;
+}
+
+.FooterSocialIcons {
+  min-width: 20vw;
+  margin-left: auto;
+  text-align: right;
+}
+
+.FooterSocialIcons p {
+  margin-bottom: 0;
+}
+
+.FooterSocialIcons svg {
+  margin: 0 3px;
+}

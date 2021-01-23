@@ -1,0 +1,89 @@
+.AboutOwner {
+  padding-right: 1.5rem;
+}
+
+.AboutContainer {
+  display: grid;
+  grid-template-columns: 16% 83%;
+  grid-gap: 1%;
+  padding-top: 1rem;
+}
+
+.NavAbout {
+
+}
+
+.NavAboutItem {
+  align-items: center;
+  font-family: Audiowide;
+    font-size: 2rem;
+    color: #007bff;
+  border-radius: .25rem;
+  border: 1px solid white;
+  margin: 0 0 1rem 1rem;
+  background: #000000d6;
+  box-shadow: 1px 1px 3px #000c;
+  white-space: nowrap;
+}
+
+.NavAboutItem a {
+  display: block;
+  height: 100%;
+  border-radius: .25rem;
+  padding: .4rem .4rem .4rem 1rem;
+}
+
+.NavAboutItem a:hover {
+  color: #fffc;
+  text-decoration: none;
+}
+
+.NavAboutItemActive  {
+  color: white;
+  background-color: #007bff;
+  object-fit: cover;
+  background-size: cover;
+  display:block;
+  width: 100%;
+}
+
+.ContentAbout {
+
+}
+
+@media (max-width: 1600px) {
+  .AboutContainer {
+    grid-template-columns: 18% 81%;
+  }
+  .NavAboutItem {
+    font-size: 1.6rem;
+  }
+  .AboutContainer {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .NavAbout {
+    display: none;
+  }
+  .AboutContainer {
+    display: flex;
+  }
+  .AboutOwner {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .AboutContainer h2 {
+    font-size: 1.5rem;
+  }
+  .AboutContainer h4, h3 {
+    font-size: 1.2rem;
+  }
+  .AboutContainer  {
+    font-size: .8rem;
+    padding-top: 0;
+  }
+}

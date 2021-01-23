@@ -1,0 +1,138 @@
+.MissionOwner {
+  border-radius: .25rem;
+  border: 1px solid white;
+  background: #000000d6;
+  color: white;
+  padding: 1rem 2rem .5rem;
+}
+
+.MissionSlogan {
+  padding: .5rem 0;
+}
+
+.MissionRow1 {
+  padding: .8rem 0;
+}
+
+.MissionRow2 {
+padding: .8rem 0;
+}
+
+.MissionFontAwesome {
+  margin-right: 1rem;
+}
+
+.EngineSchemeImage {
+  max-height: 21vmin;
+  border: 1px solid white;
+    border-radius: .25rem;
+  float: right;
+  margin-left: 1.5rem;
+}
+
+.CarLayoutImage {
+  max-height: 18vmin;
+  border: 1px solid white;
+    border-radius: .25rem;
+  float: left;
+  margin: 1.5rem 1.5rem 0 0;
+}
+
+.MissionLibraryText {
+  text-indent: 1rem;
+  text-align: justify;
+}
+
+.MissionTeamText {
+  text-indent: 1rem;
+  text-align: justify;
+  padding-top: 1rem;
+}
+
+.MissionFooter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  font-family: Audiowide;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #000c;
+  padding: 1rem 2rem 0;
+  margin-top: 2rem;
+}
+
+.MissionFooterLink1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.MissionFooterLink2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.MissionFooterLink3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.MissionFooterLinkDescr {
+  font-family: Segoe UI;
+    font-size: initial;
+  -webkit-text-stroke: initial;
+  text-transform: initial;
+  text-shadow: initial;
+  text-align: initial;
+  text-decoration: none;
+}
+
+.MissionFooterLinkDescr ul, li {
+  list-style-type: square;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .MissionFooterLinkDescr {
+    display: none;
+  }
+  .MissionFooter {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 940px) {
+  .MissionOwner {
+    padding: 1rem 1.5rem .3rem;
+  }
+  .MissionFooter {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.33rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .MissionOwner {
+    padding: 1rem 1rem .3rem;
+  }
+  .MissionFooter {
+    font-size: 1.2rem;
+  }
+  .MissionFooterLink1 {
+    padding-right: .4rem;
+  }
+}

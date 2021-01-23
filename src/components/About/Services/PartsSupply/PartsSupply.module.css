@@ -1,0 +1,132 @@
+.SupplyOwner {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1rem;
+  background-image: url("./warehouse.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: .25rem;
+  border: 0px 0px 1px 1px solid;
+  padding-right: 1rem;
+}
+
+.SupplyContainerLeft {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.SupplyCard {
+  display: grid;
+  grid-template-columns: 37% 62%;
+  grid-gap: 1%;
+  background: #000000d6;
+  border: 1px solid white;
+  border-radius: .25rem;
+  max-width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 38%;
+  padding: 1rem;
+}
+
+.SupplyCardLeft {
+  padding-right: 1rem;
+}
+
+.SupplyCardLeftHeader {
+  font-family: Audiowide;
+    font-size: 1.6rem;
+}
+
+.SupplyCardRight {
+  border-left: 1px solid white;
+}
+
+.SupplyCardList li {
+  font-size: 1.4rem;
+}
+
+.SupplyCardButton {
+  background-color: #007bff;
+  font-family: Audiowide;
+  font-size: 1.4rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: .25rem;
+  float: right;
+}
+
+.SupplyCardButton:hover {
+  border: 1px solid #007bff;
+  background-color: #006bff;
+}
+
+.SupplyShoppingCart {
+  height: 1rem;
+  color: white;
+}
+
+.SupplyContainerRight {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  background: #000000d6;
+  text-indent: 1rem;
+  text-align: justify;
+  padding: 1.6rem;
+}
+
+.SupplyFontAwesome {
+  margin-right: 1rem;
+}
+
+.SupplyBottomText {
+  text-indent: 0;
+  font-size: .8rem;
+  padding-top: 1.2rem;
+}
+
+@media (max-width: 1600px) {
+  .SupplyCard {
+    max-width: 88%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .SupplyOwner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 63% 18%;
+  }
+  .SupplyContainerLeft {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .SupplyContainerRight {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .SupplyCard {
+    max-width: 62%;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .SupplyCard {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 540px) {
+  .ShoppingCartLine {
+    display: none;
+  }
+  .SupplyCardLeftHeader {
+    font-size: 1.2rem;
+  }
+  .SupplyCardList li {
+    font-size: 1rem;
+  }
+}

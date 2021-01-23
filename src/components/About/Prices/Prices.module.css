@@ -1,0 +1,21 @@
+.ServiceOwner {
+  border-radius: .25rem;
+  border: 1px solid white;
+  background: #000000d6;
+  color: white;
+  padding: 1rem;
+}
+
+.ServiceContainer {
+
+}
+
+.ServiceTabs {
+  font-family: Audiowide;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.TabItem {
+  padding: .5rem 1rem .2rem;
+}

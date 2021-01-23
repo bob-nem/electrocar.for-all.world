@@ -23,8 +23,13 @@
 .TabItem a {
   display: block;
   height: 100%;
-  border-radius: .25rem;
+  border-radius: .25rem .25rem 0 0;
   padding: .4rem .4rem .4rem 1rem;
+}
+
+.TabItem a:hover {
+  color: #fffc;
+  text-decoration: none;
 }
 
 .TabItemActive {

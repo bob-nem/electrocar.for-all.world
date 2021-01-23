@@ -25,7 +25,7 @@ const Manufacturing = () => {
         </Card>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="2">
-            electrical components
+            <h3>electrical components</h3>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey="2">
             <Card.Body>Hello! I'm the body</Card.Body>

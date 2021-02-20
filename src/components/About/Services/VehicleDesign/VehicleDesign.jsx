@@ -11,13 +11,11 @@ import schemePlaning from './e-tron-scheme.webp';
       <h3>Some actions simply should not be done without planning ahead. And all because planning allows you to reduce possible risks, that everything will go wrong as intended. The golden rule applies to life as a whole.</h3>
     </div>
       <div className={style.DesignRow}>
-        <div className={style.DesignDrawImageDiv1}>
           <img
           className={style.DesignDrawImage}
           src={designDraw}
           alt="Drawing"
           />
-        </div>
         <div className={style.ServicesDesignText}>
           <p>
             Convallis posuere morbi leo urna molestie at elementum. Id velit ut tortor pretium viverra. Dolor morbi non arcu risus quis. Habitant morbi tristique senectus et netus. Egestas pretium aenean pharetra magna ac placerat. Justo donec enim diam vulputate ut pharetra sit amet. Justo eget magna fermentum iaculis. Diam maecenas sed enim ut sem. Massa tincidunt dui ut ornare. Quam pellentesque nec nam aliquam.
@@ -31,21 +29,19 @@ import schemePlaning from './e-tron-scheme.webp';
       <h3>It is rational to take into account several design approaches to one project with different solutions.</h3>
     </div>
     <div className={style.DesignRow}>
-      <div className={style.DesignDrawImageDiv2}>
-        <img
+      <img
         className={style.DesignDrawImage}
         src={schemePlaning}
         alt="Electrocar scheme planing"
-        />
+      />
+      <div className={style.ServicesDesignText}>
+        <p>
+          Nunc sed blandit libero volutpat sed cras. Sed risus pretium quam vulputate dignissim. In eu mi bibendum neque egestas congue quisque. Fusce ut placerat orci nulla pellentesque dignissim enim. Magna sit amet purus gravida quis. Senectus et netus et malesuada fames ac turpis egestas integer. Platea dictumst vestibulum rhoncus est pellentesque elit. Vulputate dignissim suspendisse in est ante in nibh. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Cursus sit amet dictum sit amet justo donec enim diam. Senectus et netus et malesuada fames. Arcu cursus vitae congue mauris. Dolor purus non enim praesent elementum facilisis. Dictumst quisque sagittis purus sit amet.
+        </p>
+        <p>
+          Pretium nibh ipsum consequat nisl vel pretium lectus quam id.  Amet nisl suscipit adipiscing bibendum est ultricies.
+        </p>
       </div>
-        <div className={style.ServicesDesignText}>
-          <p>
-            Nunc sed blandit libero volutpat sed cras. Sed risus pretium quam vulputate dignissim. In eu mi bibendum neque egestas congue quisque. Fusce ut placerat orci nulla pellentesque dignissim enim. Magna sit amet purus gravida quis. Senectus et netus et malesuada fames ac turpis egestas integer. Platea dictumst vestibulum rhoncus est pellentesque elit. Vulputate dignissim suspendisse in est ante in nibh. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Cursus sit amet dictum sit amet justo donec enim diam. Senectus et netus et malesuada fames. Arcu cursus vitae congue mauris. Dolor purus non enim praesent elementum facilisis. Dictumst quisque sagittis purus sit amet.
-          </p>
-          <p>
-            Pretium nibh ipsum consequat nisl vel pretium lectus quam id.  Amet nisl suscipit adipiscing bibendum est ultricies.
-          </p>
-        </div>
       </div>
       <div className={style.DesignBottomText}>
         <p>

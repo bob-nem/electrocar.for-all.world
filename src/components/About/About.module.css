@@ -20,10 +20,10 @@
     color: #007bff;
   border-radius: .25rem;
   border: 1px solid white;
-  margin: 0 0 1rem 1rem;
   background: #000000d6;
   box-shadow: 1px 1px 3px #000c;
   white-space: nowrap;
+  margin: 0 0 1rem 1rem;
 }
 
 .NavAboutItem a {

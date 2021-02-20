@@ -7,7 +7,7 @@ import style from './Services.module.css'
 
 import VehicleDesign from './VehicleDesign/VehicleDesign';
 import PartsSupply from './PartsSupply/PartsSupply';
-import Manufacturing from './PartsManufacturing/PartsManufacturing';
+import Manufacturing from './Manufacturing/Manufacturing';
 
 const Services = (props) => {
   return (
@@ -32,13 +32,13 @@ const Services = (props) => {
           </NavLink>
         </label>
         <label className={style.TabItem}>
-          <NavLink to="/about/services/manufacturing" activeClassName={style.TabItemActive}>
+          <NavLink to="/about/services/assembly" activeClassName={style.TabItemActive}>
             <GoPlug size="1.5em" className={style.TabIcon} />
             assembly of the items
           </NavLink>
         </label>
         <label className={style.TabItem}>
-          <NavLink to="/about/services/manufacturing" activeClassName={style.TabItemActive}>
+          <NavLink to="/about/services/maintenance" activeClassName={style.TabItemActive}>
             <FontAwesomeIcon icon={faWrench} className={style.TabIcon} />
             maintenance and repair
           </NavLink>
